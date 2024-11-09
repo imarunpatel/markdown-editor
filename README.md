@@ -6,3 +6,7 @@ To run the project, execute the following commands:
 - `npm run dev` - to start the proejct
 
 *Node version `16+` is required*
+
+### Features implemented
+- Live markdown to HTML conversion
+- Theme (dark, light)
