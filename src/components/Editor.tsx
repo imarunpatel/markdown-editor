@@ -12,7 +12,6 @@ const Editor: React.FC<Props> = ({ markdown, setMarkdown }) => {
   return (
     <div className="flex-1 h-full">
       <textarea
-        id="markdown-editor"
         value={markdown}
         onChange={handleMarkdownChange}
         className="block h-full p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 dark:bg-gray-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
