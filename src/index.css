@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Lato", sans-serif;;
+}
+
+#my-vscode-textarea {
+  font-family: "Consolas", monospace;
+  /* background-color: #282c34; */
+  /* color: #fff; */
+  padding: 10px;
+  /* border: 1px solid #555; */
+  /* width: 500px;
+  height: 300px; */
+  resize: vertical; /* Allow only vertical resizing */
+  box-sizing: border-box;
+}
+
+/* Optional: Line numbers styling */
+#my-vscode-textarea::before {
+  content: counter(line);
+  counter-increment: line;
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  text-align: right;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90);
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}

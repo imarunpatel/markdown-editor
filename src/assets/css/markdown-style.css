@@ -1,0 +1,21 @@
+.reactMarkDown {
+}
+
+.reactMarkDown h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.reactMarkDown h2 {
+  margin-top: 0;
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.reactMarkDown a {
+  background-color: transparent;
+  color: #4493f8;
+  text-decoration: none;
+}
