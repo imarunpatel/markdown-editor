@@ -9,6 +9,7 @@ interface Props {
   markdown: string;
 }
 const Preview = React.memo(({ markdown }: Props) => {
+  console.log('hi', JSON.stringify(markdown))
   return (
     <div
       className="flex-1 border min-h-full rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-900 p-3 full w-full bg-white overflow-auto"

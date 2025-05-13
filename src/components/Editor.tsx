@@ -8,7 +8,6 @@ const Editor: React.FC<Props> = ({ markdown, setMarkdown }) => {
   const handleMarkdownChange: React.ChangeEventHandler<HTMLTextAreaElement> = (event) => {
     setMarkdown(event.target.value);
   };
-
   return (
     <div className="flex-1 h-full">
       <textarea
